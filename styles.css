@@ -7,25 +7,49 @@
 .dice {
   text-align: center;
   display: inline-block;
+}
 
+.button {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.button2:disabled {
+  background-color: #9c060c;
+  color: #ffffff;
 }
 
 body {
-  background-color: #393E46;
+  background-color: #393e46;
 }
 
 h1 {
   margin: 30px;
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
-  color: #4ECCA3;
+  color: #4ecca3;
+}
+
+button {
+  margin: 0 2rem;
+  width: 10rem;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 5rem;
+  color: #4ecca3;
+}
+
+button:hover {
+  background-color: #4ecca3;
+  color: #ffffff;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
 }
 
 img {
@@ -34,8 +58,7 @@ img {
 
 footer {
   margin-top: 5%;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  font-family: "Indie Flower", cursive;
 }
